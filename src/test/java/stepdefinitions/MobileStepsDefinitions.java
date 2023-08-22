@@ -48,7 +48,7 @@ public class MobileStepsDefinitions  extends BasePage{
           capabilites.setCapability(MobileCapabilityType.UDID, "emulator-5554");
           capabilites.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
 //          capabilites.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
-          capabilites.setCapability("chromedriverExecutable", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+//          capabilites.setCapability("chromedriverExecutable", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
           capabilites.setCapability(AndroidMobileCapabilityType.APP_PACKAGE ,"com.android.chrome");
           capabilites.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY ,"com.google.android.apps.chrome.Main");
           capabilites.setCapability("noReset", true);
