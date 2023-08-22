@@ -1,12 +1,12 @@
 {
-  "uid" : "1f756e380ae2bc1a",
-  "name" : "Login to SwagLabs Application with Wrong credentials",
-  "fullName" : "Login: Login to SwagLabs Application with Wrong credentials",
-  "historyId" : "276b38a1dbee8ce80e4ed3066255978e",
+  "uid" : "c97a9cd326a6a97a",
+  "name" : "Login to SwagLabs Application with Correct credentials",
+  "fullName" : "Login: Login to SwagLabs Application with Correct credentials",
+  "historyId" : "bd64c0b9befe417a38e4267406c918c4",
   "time" : {
-    "start" : 1692621201856,
-    "stop" : 1692621203033,
-    "duration" : 1177
+    "start" : 1692731743431,
+    "stop" : 1692731744945,
+    "duration" : 1514
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,9 +16,9 @@
     "steps" : [ {
       "name" : "Given  User launched SwagLabs application",
       "time" : {
-        "start" : 1692621201856,
-        "stop" : 1692621202532,
-        "duration" : 676
+        "start" : 1692731743432,
+        "stop" : 1692731744195,
+        "duration" : 763
       },
       "status" : "passed",
       "steps" : [ ],
@@ -29,11 +29,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When  User logged in the app using username \"locked_out_user\" and password \"secret_sauce\"",
+      "name" : "When  User logged in the app using username \"standard_user\" and password \"secret_sauce\"",
       "time" : {
-        "start" : 1692621202668,
-        "stop" : 1692621202794,
-        "duration" : 126
+        "start" : 1692731744366,
+        "stop" : 1692731744578,
+        "duration" : 212
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,11 +44,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  User should not get logged in",
+      "name" : "Then  user should be able to log in",
       "time" : {
-        "start" : 1692621202903,
-        "stop" : 1692621202909,
-        "duration" : 6
+        "start" : 1692731744751,
+        "stop" : 1692731744756,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,16 +69,16 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692621202532,
-      "stop" : 1692621202667,
-      "duration" : 135
+      "start" : 1692731744195,
+      "stop" : 1692731744365,
+      "duration" : 170
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bdef8b744fe6626e",
+      "uid" : "604c4a1df3926e89",
       "name" : "Screenshot",
-      "source" : "bdef8b744fe6626e.png",
+      "source" : "604c4a1df3926e89.png",
       "type" : "image/png",
       "size" : 53618
     } ],
@@ -90,18 +90,18 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692621202794,
-      "stop" : 1692621202903,
-      "duration" : 109
+      "start" : 1692731744579,
+      "stop" : 1692731744750,
+      "duration" : 171
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a7132478b6efc443",
+      "uid" : "5735a343cf87dd22",
       "name" : "Screenshot",
-      "source" : "a7132478b6efc443.png",
+      "source" : "5735a343cf87dd22.png",
       "type" : "image/png",
-      "size" : 68767
+      "size" : 148343
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -111,18 +111,18 @@
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692621202909,
-      "stop" : 1692621203023,
-      "duration" : 114
+      "start" : 1692731744756,
+      "stop" : 1692731744933,
+      "duration" : 177
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "18cd128c4d366adf",
+      "uid" : "c059a001a12707e2",
       "name" : "Screenshot",
-      "source" : "18cd128c4d366adf.png",
+      "source" : "c059a001a12707e2.png",
       "type" : "image/png",
-      "size" : 68767
+      "size" : 148343
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -132,8 +132,8 @@
   }, {
     "name" : "steps.tearDown(Scenario)",
     "time" : {
-      "start" : 1692621203023,
-      "stop" : 1692621203029,
+      "start" : 1692731744933,
+      "stop" : 1692731744939,
       "duration" : 6
     },
     "status" : "passed",
@@ -147,9 +147,9 @@
   }, {
     "name" : "ApiStepDefinitions.closeResponse()",
     "time" : {
-      "start" : 1692621203031,
-      "stop" : 1692621203032,
-      "duration" : 1
+      "start" : 1692731744939,
+      "stop" : 1692731744945,
+      "duration" : 6
     },
     "status" : "passed",
     "steps" : [ ],
@@ -161,20 +161,17 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "SmokeTest"
-  }, {
     "name" : "host",
-    "value" : "fv-az612-870"
+    "value" : "fv-az574-58"
   }, {
     "name" : "thread",
-    "value" : "2224@fv-az612-870.main(1)"
+    "value" : "2174@fv-az574-58.main(1)"
   }, {
     "name" : "feature",
     "value" : "Login"
   }, {
     "name" : "story",
-    "value" : "Login to SwagLabs Application with Wrong credentials"
+    "value" : "Login to SwagLabs Application with Correct credentials"
   }, {
     "name" : "package",
     "value" : "src.test.resources.features.WebUI.Login"
@@ -183,7 +180,7 @@
     "value" : "Login"
   }, {
     "name" : "testClass",
-    "value" : "Login to SwagLabs Application with Wrong credentials"
+    "value" : "Login to SwagLabs Application with Correct credentials"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -202,7 +199,7 @@
     "value" : "secret_sauce"
   }, {
     "name" : "UserName",
-    "value" : "locked_out_user"
+    "value" : "standard_user"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -211,8 +208,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "SmokeTest" ]
+    "tags" : [ ]
   },
-  "source" : "1f756e380ae2bc1a.json",
-  "parameterValues" : [ "secret_sauce", "locked_out_user" ]
+  "source" : "c97a9cd326a6a97a.json",
+  "parameterValues" : [ "secret_sauce", "standard_user" ]
 }

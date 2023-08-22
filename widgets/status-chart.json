@@ -1,80 +1,40 @@
 [ {
-  "uid" : "50d743f5ff37d6ac",
-  "name" : "Get User by ID",
-  "time" : {
-    "start" : 1692621108507,
-    "stop" : 1692621109116,
-    "duration" : 609
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dbe8c15ea4117454",
-  "name" : "Buy a SwagLabs product successfully",
-  "time" : {
-    "start" : 1692621109144,
-    "stop" : 1692621200521,
-    "duration" : 91377
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d3b329480206568f",
-  "name" : "Login to SwagLabs Application with Correct credentials",
-  "time" : {
-    "start" : 1692621200535,
-    "stop" : 1692621201847,
-    "duration" : 1312
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b27e352d135668cb",
+  "uid" : "e5cbfca120833c32",
   "name" : "Login to SwagLabs Application with Wrong credentials",
   "time" : {
-    "start" : 1692621201855,
-    "stop" : 1692621203032,
-    "duration" : 1177
+    "start" : 1692731744952,
+    "stop" : 1692731746354,
+    "duration" : 1402
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5acddd7fa52a3db8",
-  "name" : "Get User by ID",
-  "time" : {
-    "start" : 1692621108499,
-    "stop" : 1692621109052,
-    "duration" : 553
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d8d2b289dec37e26",
-  "name" : "Buy a SwagLabs product successfully",
-  "time" : {
-    "start" : 1692621109137,
-    "stop" : 1692621200521,
-    "duration" : 91384
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3e4074db370fd768",
+  "uid" : "c97a9cd326a6a97a",
   "name" : "Login to SwagLabs Application with Correct credentials",
   "time" : {
-    "start" : 1692621200536,
-    "stop" : 1692621201847,
-    "duration" : 1311
+    "start" : 1692731743431,
+    "stop" : 1692731744945,
+    "duration" : 1514
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1f756e380ae2bc1a",
-  "name" : "Login to SwagLabs Application with Wrong credentials",
+  "uid" : "cf9a0a85359e5d24",
+  "name" : "Get User by ID",
   "time" : {
-    "start" : 1692621201856,
-    "stop" : 1692621203033,
-    "duration" : 1177
+    "start" : 1692731724929,
+    "stop" : 1692731725607,
+    "duration" : 678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfab6fe15da6f454",
+  "name" : "Buy a SwagLabs product successfully",
+  "time" : {
+    "start" : 1692731725706,
+    "stop" : 1692731743420,
+    "duration" : 17714
   },
   "status" : "passed",
   "severity" : "normal"
