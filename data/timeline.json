@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "ubuntu22",
+    "children" : [ {
+      "name" : "17594@ubuntu22.main(1)",
+      "children" : [ {
+        "name" : "Tweet using UI",
+        "uid" : "caaf03c2b934280d",
+        "parentUid" : "07e5d354e78bc12c10bb4c760a6a3713",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692786785876,
+          "stop" : 1692786819798,
+          "duration" : 33922
+        },
+        "flaky" : false,
+        "parameters" : [ "Joyful to be part of  @stepin_forum @verity_software", "2" ]
+      }, {
+        "name" : "Tweet using UI",
+        "uid" : "cf20040ab1c61a65",
+        "parentUid" : "07e5d354e78bc12c10bb4c760a6a3713",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692786750661,
+          "stop" : 1692786785782,
+          "duration" : 35121
+        },
+        "flaky" : false,
+        "parameters" : [ "so are we the expleons climbing the summit", "1" ]
+      }, {
+        "name" : "Tweet using UI",
+        "uid" : "92c55f9a0a069b87",
+        "parentUid" : "07e5d354e78bc12c10bb4c760a6a3713",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692786819824,
+          "stop" : 1692786853681,
+          "duration" : 33857
+        },
+        "flaky" : false,
+        "parameters" : [ "Hardwork paves off", "3" ]
+      } ],
+      "uid" : "07e5d354e78bc12c10bb4c760a6a3713"
+    } ],
+    "uid" : "73fae9286270a91f91c9928ecf5bad68"
+  } ],
+  "name" : "timeline"
+}
