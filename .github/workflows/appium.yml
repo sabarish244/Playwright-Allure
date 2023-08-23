@@ -17,8 +17,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        with:
-          ref: testbranch
       # Setup Node JS - 10.17.0
       - name: Set up Node JS 10.17.0
         uses: actions/setup-node@v1
