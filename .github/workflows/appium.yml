@@ -64,6 +64,8 @@ jobs:
           E2E_TEST_DEFAULTS: 'true'
           E2E_TEST_TAGS: 'E2E'
         run: |
+          npm install --save react-native
+          npm install npm@latest -g
           react-native run-android
           sleep 15
           mvn clean test -Pandroid -X
