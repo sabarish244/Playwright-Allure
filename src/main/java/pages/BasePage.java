@@ -64,6 +64,7 @@ public abstract class BasePage {
 			 Browser browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(true));
 	            BrowserContext context = browser.newContext(new Browser.NewContextOptions()
 	                    .setViewportSize(1200, 800)
+			    .setTimeout(120000)
 	                    .setUserAgent("Custom Webkit"));
 	             page = context.newPage();
 		}else{
