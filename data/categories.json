@@ -1,0 +1,49 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-9495608938271736903/package/lib/server/progress.js:88:26)\n    at Frame.fill (/tmp/playwright-java-9495608938271736903/package/lib/server/frames.js:1047:23)\n    at FrameDispatcher.fill (/tmp/playwright-java-9495608938271736903/package/lib/server/dispatchers/frameDispatcher.js:163:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-9495608938271736903/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "children" : [ {
+        "name" : "Tweet using UI",
+        "uid" : "ae588fc516ed196",
+        "parentUid" : "aac09e688d7296d2bba218ed124e0f35",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692778369504,
+          "stop" : 1692778404602,
+          "duration" : 35098
+        },
+        "flaky" : false,
+        "parameters" : [ "so are we the expleons climbing the summit", "1" ]
+      }, {
+        "name" : "Tweet using UI",
+        "uid" : "ee9975d7671fa6e3",
+        "parentUid" : "aac09e688d7296d2bba218ed124e0f35",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692778404680,
+          "stop" : 1692778438565,
+          "duration" : 33885
+        },
+        "flaky" : false,
+        "parameters" : [ "Joyful to be part of  @stepin_forum @verity_software", "2" ]
+      }, {
+        "name" : "Tweet using UI",
+        "uid" : "9e26bad81cda6270",
+        "parentUid" : "aac09e688d7296d2bba218ed124e0f35",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692778438600,
+          "stop" : 1692778472496,
+          "duration" : 33896
+        },
+        "flaky" : false,
+        "parameters" : [ "Hardwork paves off", "3" ]
+      } ],
+      "uid" : "aac09e688d7296d2bba218ed124e0f35"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
