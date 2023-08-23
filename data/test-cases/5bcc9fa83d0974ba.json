@@ -1,0 +1,192 @@
+{
+  "uid" : "5bcc9fa83d0974ba",
+  "name" : "Tweet using UI",
+  "fullName" : "Post to Twitter and validate in Instagram: Tweet using UI",
+  "historyId" : "6662bf0f274334d2d360954e361b41a",
+  "time" : {
+    "start" : 1692784310950,
+    "stop" : 1692784346057,
+    "duration" : 35107
+  },
+  "status" : "broken",
+  "statusMessage" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+  "statusTrace" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}\n\tat com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)\n\tat com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\n\tat com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)\n\tat com.microsoft.playwright.Locator.click(Locator.java:2297)\n\tat pages.twitterloginandtweet.tweet(twitterloginandtweet.java:55)\n\tat stepdefinitions.UIStepDefinitions.tweet_over_twitter(UIStepDefinitions.java:77)\n\tat ✽.User Tweets TestAutothon \"so are we the expleons climbing the summit\" over UI \"1\"(file:src/test/resources/features/testauthothon/testautothon.feature:6)\nCaused by: com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}\n\tat com.microsoft.playwright.impl.Connection.dispatch(Connection.java:224)\n\tat com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)\n\tat com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\n\tat com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)\n\tat com.microsoft.playwright.Locator.click(Locator.java:2297)\n\tat pages.twitterloginandtweet.tweet(twitterloginandtweet.java:55)\n\tat stepdefinitions.UIStepDefinitions.tweet_over_twitter(UIStepDefinitions.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\n\tat cucumber.runner.TestCase.run(TestCase.java:45)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+    "statusTrace" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}\n\tat com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)\n\tat com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\n\tat com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)\n\tat com.microsoft.playwright.Locator.click(Locator.java:2297)\n\tat pages.twitterloginandtweet.tweet(twitterloginandtweet.java:55)\n\tat stepdefinitions.UIStepDefinitions.tweet_over_twitter(UIStepDefinitions.java:77)\n\tat ✽.User Tweets TestAutothon \"so are we the expleons climbing the summit\" over UI \"1\"(file:src/test/resources/features/testauthothon/testautothon.feature:6)\nCaused by: com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}\n\tat com.microsoft.playwright.impl.Connection.dispatch(Connection.java:224)\n\tat com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)\n\tat com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\n\tat com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)\n\tat com.microsoft.playwright.Locator.click(Locator.java:2297)\n\tat pages.twitterloginandtweet.tweet(twitterloginandtweet.java:55)\n\tat stepdefinitions.UIStepDefinitions.tweet_over_twitter(UIStepDefinitions.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\n\tat cucumber.runner.TestCase.run(TestCase.java:45)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\n",
+    "steps" : [ {
+      "name" : "Given  User launched Twitter",
+      "time" : {
+        "start" : 1692784310952,
+        "stop" : 1692784315580,
+        "duration" : 4628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  User Tweets TestAutothon \"so are we the expleons climbing the summit\" over UI \"1\"",
+      "time" : {
+        "start" : 1692784315712,
+        "stop" : 1692784345717,
+        "duration" : 30005
+      },
+      "status" : "broken",
+      "statusMessage" : "Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}",
+      "statusTrace" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}\n\tat com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)\n\tat com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\n\tat com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)\n\tat com.microsoft.playwright.Locator.click(Locator.java:2297)\n\tat pages.twitterloginandtweet.tweet(twitterloginandtweet.java:55)\n\tat stepdefinitions.UIStepDefinitions.tweet_over_twitter(UIStepDefinitions.java:77)\n\tat ✽.User Tweets TestAutothon \"so are we the expleons climbing the summit\" over UI \"1\"(file:src/test/resources/features/testauthothon/testautothon.feature:6)\nCaused by: com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n  name='TimeoutError\n  stack='TimeoutError: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for locator(\"internal:attr=[data-testid=\\\"tweetTextarea_0\\\"]\")\n============================================================\n    at ProgressController.run (/tmp/playwright-java-8178074719356809195/package/lib/server/progress.js:88:26)\n    at Frame.click (/tmp/playwright-java-8178074719356809195/package/lib/server/frames.js:1003:23)\n    at FrameDispatcher.click (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/frameDispatcher.js:151:30)\n    at DispatcherConnection.dispatch (/tmp/playwright-java-8178074719356809195/package/lib/server/dispatchers/dispatcher.js:312:46)\n}\n\tat com.microsoft.playwright.impl.Connection.dispatch(Connection.java:224)\n\tat com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)\n\tat com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\n\tat com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)\n\tat com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)\n\tat com.microsoft.playwright.Locator.click(Locator.java:2297)\n\tat pages.twitterloginandtweet.tweet(twitterloginandtweet.java:55)\n\tat stepdefinitions.UIStepDefinitions.tweet_over_twitter(UIStepDefinitions.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\n\tat cucumber.runner.TestCase.run(TestCase.java:45)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "UIStepDefinitions.captureScreenshotAfterStep(Scenario)",
+    "time" : {
+      "start" : 1692784315582,
+      "stop" : 1692784315712,
+      "duration" : 130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cc5cc435c5af8eec",
+      "name" : "Screenshot",
+      "source" : "cc5cc435c5af8eec.png",
+      "type" : "image/png",
+      "size" : 55293
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "UIStepDefinitions.captureScreenshotAfterStep(Scenario)",
+    "time" : {
+      "start" : 1692784345717,
+      "stop" : 1692784345839,
+      "duration" : 122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3607873bda90233e",
+      "name" : "Screenshot",
+      "source" : "3607873bda90233e.png",
+      "type" : "image/png",
+      "size" : 55293
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "UIStepDefinitions.tearDown(Scenario)",
+    "time" : {
+      "start" : 1692784345839,
+      "stop" : 1692784345846,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "RestApiStepDefinitions.closeResponse()",
+    "time" : {
+      "start" : 1692784345846,
+      "stop" : 1692784346049,
+      "duration" : 203
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "UI"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu22"
+  }, {
+    "name" : "thread",
+    "value" : "6819@ubuntu22.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Post to Twitter and validate in Instagram"
+  }, {
+    "name" : "story",
+    "value" : "Tweet using UI"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.testauthothon.Post to Twitter and validate in Instagram"
+  }, {
+    "name" : "suite",
+    "value" : "Post to Twitter and validate in Instagram"
+  }, {
+    "name" : "testClass",
+    "value" : "Tweet using UI"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/testauthothon/testautothon.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Unique_text",
+    "value" : "so are we the expleons climbing the summit"
+  }, {
+    "name" : "post",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "UI" ]
+  },
+  "source" : "5bcc9fa83d0974ba.json",
+  "parameterValues" : [ "so are we the expleons climbing the summit", "1" ]
+}

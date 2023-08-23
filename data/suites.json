@@ -1,0 +1,45 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Post to Twitter and validate in Instagram",
+    "children" : [ {
+      "name" : "Tweet using UI",
+      "uid" : "5bcc9fa83d0974ba",
+      "parentUid" : "90cdf27c75446dd46a1f0d491db808c1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1692784310950,
+        "stop" : 1692784346057,
+        "duration" : 35107
+      },
+      "flaky" : false,
+      "parameters" : [ "so are we the expleons climbing the summit", "1" ]
+    }, {
+      "name" : "Tweet using UI",
+      "uid" : "ddaad1f1c3bb5d7a",
+      "parentUid" : "90cdf27c75446dd46a1f0d491db808c1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1692784346135,
+        "stop" : 1692784379985,
+        "duration" : 33850
+      },
+      "flaky" : false,
+      "parameters" : [ "Joyful to be part of  @stepin_forum @verity_software", "2" ]
+    }, {
+      "name" : "Tweet using UI",
+      "uid" : "62aba6e4fa72c22c",
+      "parentUid" : "90cdf27c75446dd46a1f0d491db808c1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1692784379995,
+        "stop" : 1692784413895,
+        "duration" : 33900
+      },
+      "flaky" : false,
+      "parameters" : [ "Hardwork paves off", "3" ]
+    } ],
+    "uid" : "90cdf27c75446dd46a1f0d491db808c1"
+  } ],
+  "name" : "suites"
+}
