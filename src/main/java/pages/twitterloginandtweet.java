@@ -52,7 +52,6 @@ public class twitterloginandtweet {
 		  String numberOnly= Post.replaceAll("[^0-9]", "");
 		  final String postontweet= "post"+Post;
 
-		  page.withTimeout(50000, () -> {
 			  page.getByTestId("tweetTextarea_0").click();
 			  if(Post.equalsIgnoreCase("1")){
 				  page.getByTestId("tweetTextarea_0").fill(post1);
@@ -64,7 +63,7 @@ public class twitterloginandtweet {
 			 
 			  
 			  page.getByTestId("tweetButtonInline").click();
-		      });
+		
 	}
 	public void loginFailed() {
 		boolean visible = page.isVisible("//h3[text()='Epic sadface: Sorry, this user has been locked out.']");
