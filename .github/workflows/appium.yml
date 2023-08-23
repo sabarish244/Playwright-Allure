@@ -31,7 +31,7 @@ jobs:
       # Install React Native CLI
       - name: Install React Native CLI
         run: |
-          npm install react-native-cli
+          npm install -g react-native-cli
       # Run Android Emulator
       - name: Run Android Emulator
         run: |
