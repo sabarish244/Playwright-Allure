@@ -43,14 +43,10 @@ jobs:
           $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
           $ANDROID_HOME/platform-tools/adb devices
           echo "Emulator started"
-      # Use HTTPS repos
-      - name: Use HTTPS repos
-        run: |
-          git config --global url."https://github".insteadOf ssh://git@github 
+      # Use HTTPS repo
       # Install Repo and Dependencies
       - name: Install Repo and Dependencies
         run: |
-          npm install --save-dev
           npm install -g appium
       # Start the Appium Server
       - name: Start the Appium Server
