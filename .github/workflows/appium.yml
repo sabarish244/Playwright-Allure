@@ -51,6 +51,7 @@ jobs:
       - name: Install Repo and Dependencies
         run: |
           npm install --save-dev
+          npm install -g appium
       # Start the Appium Server
       - name: Start the Appium Server
         run: ./node_modules/.bin/appium --log-timestamp --log-no-colors --allow-insecure chromedriver_autodownload > appium.log &
