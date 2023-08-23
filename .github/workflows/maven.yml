@@ -1,4 +1,4 @@
-name: X-Automation-Playwright-CI
+name: X-Auto-Playwright-CI
 
 on:
   push:
