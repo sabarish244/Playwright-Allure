@@ -46,6 +46,6 @@ jobs:
       # Upload Test Results
     - name: Upload Test Results
       uses: actions/upload-artifact@v1
-       with:
-          name: e2e-results
-          path: __tests__/e2e/output
+      with:
+        name: e2e-results
+        path: __tests__/e2e/output
