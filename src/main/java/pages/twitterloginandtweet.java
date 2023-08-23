@@ -51,7 +51,7 @@ public class twitterloginandtweet {
 		  int i =1;
 		  String numberOnly= Post.replaceAll("[^0-9]", "");
 		  final String postontweet= "post"+Post;
-		  Thread.sleep(2000);
+		  
 		  page.getByTestId("tweetTextarea_0").click();
 		  if(Post.equalsIgnoreCase("1")){
 			  ;
