@@ -51,12 +51,12 @@ jobs:
       # Start the Appium Server
       - name: Start the Appium Server
         run: ./node_modules/.bin/appium --log-timestamp --log-no-colors --allow-insecure chromedriver_autodownload > appium.log &
-      # Poll for Appium Server to Start
-      - name: Poll for Appium Server to Start
-        run: |
-          until $(curl --output /dev/null --silent --head --fail http://127.0.0.1:4723/wd/hub/sessions); do
-            sleep 5
-          done
+      # # Poll for Appium Server to Start
+      # - name: Poll for Appium Server to Start
+      #   run: |
+      #     until $(curl --output /dev/null --silent --head --fail http://127.0.0.1:4723/wd/hub/sessions); do
+      #       sleep 5
+      #     done
       # Build Android App and Run Tests
       - name: Build Android App and Run Tests
         env:
