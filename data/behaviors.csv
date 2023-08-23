@@ -1,5 +1,5 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
 "","Login","Login to SwagLabs Application with Wrong credentials","0","0","1","0","0"
-"","Login","Login to SwagLabs Application with Correct credentials","0","0","1","0","0"
 "","Get User By ID using API","Get User by ID","0","0","1","0","0"
 "","Buy Product","Buy a SwagLabs product successfully","0","0","1","0","0"
+"","Login","Login to SwagLabs Application with Correct credentials","0","0","1","0","0"

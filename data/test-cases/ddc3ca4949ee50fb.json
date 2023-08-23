@@ -1,12 +1,12 @@
 {
-  "uid" : "e5cbfca120833c32",
-  "name" : "Login to SwagLabs Application with Wrong credentials",
-  "fullName" : "Login: Login to SwagLabs Application with Wrong credentials",
-  "historyId" : "276b38a1dbee8ce80e4ed3066255978e",
+  "uid" : "ddc3ca4949ee50fb",
+  "name" : "Get User by ID",
+  "fullName" : "Get User By ID using API: Get User by ID",
+  "historyId" : "bef32f5a7841ac0b0b37eb77d2bdbec8",
   "time" : {
-    "start" : 1692731744952,
-    "stop" : 1692731746354,
-    "duration" : 1402
+    "start" : 1692769733039,
+    "stop" : 1692769733761,
+    "duration" : 722
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,11 +14,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given  User launched SwagLabs application",
+      "name" : "Given  the API base URL is \"https://jsonplaceholder.typicode.com\"",
       "time" : {
-        "start" : 1692731744952,
-        "stop" : 1692731745728,
-        "duration" : 776
+        "start" : 1692769733041,
+        "stop" : 1692769733378,
+        "duration" : 337
       },
       "status" : "passed",
       "steps" : [ ],
@@ -29,11 +29,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When  User logged in the app using username \"locked_out_user\" and password \"secret_sauce\"",
+      "name" : "When  I send a GET request to \"/users/1\"",
       "time" : {
-        "start" : 1692731745885,
-        "stop" : 1692731746037,
-        "duration" : 152
+        "start" : 1692769733389,
+        "stop" : 1692769733751,
+        "duration" : 362
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,11 +44,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  User should not get logged in",
+      "name" : "Then  the response status code should be 200",
       "time" : {
-        "start" : 1692731746183,
-        "stop" : 1692731746189,
-        "duration" : 6
+        "start" : 1692769733752,
+        "stop" : 1692769733754,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  the response should contain \"Leanne Graham\"",
+      "time" : {
+        "start" : 1692769733754,
+        "stop" : 1692769733759,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,7 +76,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 4,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -69,72 +84,54 @@
   "afterStages" : [ {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692731745729,
-      "stop" : 1692731745885,
-      "duration" : 156
+      "start" : 1692769733383,
+      "stop" : 1692769733387,
+      "duration" : 4
     },
     "status" : "passed",
     "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "8c0c037e2ea51d34",
-      "name" : "Screenshot",
-      "source" : "8c0c037e2ea51d34.png",
-      "type" : "image/png",
-      "size" : 53618
-    } ],
+    "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "hasContent" : false
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692731746037,
-      "stop" : 1692731746183,
-      "duration" : 146
+      "start" : 1692769733752,
+      "stop" : 1692769733752,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "4d1fd7a4ed1d3ff3",
-      "name" : "Screenshot",
-      "source" : "4d1fd7a4ed1d3ff3.png",
-      "type" : "image/png",
-      "size" : 68767
-    } ],
+    "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "hasContent" : false
   }, {
     "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692731746189,
-      "stop" : 1692731746345,
-      "duration" : 156
+      "start" : 1692769733754,
+      "stop" : 1692769733754,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "3d62d0ed70ef8441",
-      "name" : "Screenshot",
-      "source" : "3d62d0ed70ef8441.png",
-      "type" : "image/png",
-      "size" : 68767
-    } ],
+    "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "hasContent" : false
   }, {
-    "name" : "steps.tearDown(Scenario)",
+    "name" : "steps.captureScreenshotAfterStep(Scenario)",
     "time" : {
-      "start" : 1692731746345,
-      "stop" : 1692731746352,
-      "duration" : 7
+      "start" : 1692769733759,
+      "stop" : 1692769733759,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -147,9 +144,24 @@
   }, {
     "name" : "ApiStepDefinitions.closeResponse()",
     "time" : {
-      "start" : 1692731746353,
-      "stop" : 1692731746354,
-      "duration" : 1
+      "start" : 1692769733759,
+      "stop" : 1692769733759,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "steps.tearDown(Scenario)",
+    "time" : {
+      "start" : 1692769733760,
+      "stop" : 1692769733760,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -162,28 +174,28 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "SmokeTest"
+    "value" : "userid"
   }, {
     "name" : "host",
-    "value" : "fv-az574-58"
+    "value" : "fv-az168-301"
   }, {
     "name" : "thread",
-    "value" : "2174@fv-az574-58.main(1)"
+    "value" : "2326@fv-az168-301.main(1)"
   }, {
     "name" : "feature",
-    "value" : "Login"
+    "value" : "Get User By ID using API"
   }, {
     "name" : "story",
-    "value" : "Login to SwagLabs Application with Wrong credentials"
+    "value" : "Get User by ID"
   }, {
     "name" : "package",
-    "value" : "src.test.resources.features.WebUI.Login"
+    "value" : "src.test.resources.features.API.Get User By ID using API"
   }, {
     "name" : "suite",
-    "value" : "Login"
+    "value" : "Get User By ID using API"
   }, {
     "name" : "testClass",
-    "value" : "Login to SwagLabs Application with Wrong credentials"
+    "value" : "Get User by ID"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -192,18 +204,12 @@
     "value" : "java"
   }, {
     "name" : "gherkin_uri",
-    "value" : "file:src/test/resources/features/WebUI/Login.feature"
+    "value" : "file:src/test/resources/features/API/useridvalidation.feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "Password",
-    "value" : "secret_sauce"
-  }, {
-    "name" : "UserName",
-    "value" : "locked_out_user"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -211,8 +217,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "SmokeTest" ]
+    "tags" : [ "userid" ]
   },
-  "source" : "e5cbfca120833c32.json",
-  "parameterValues" : [ "secret_sauce", "locked_out_user" ]
+  "source" : "ddc3ca4949ee50fb.json",
+  "parameterValues" : [ ]
 }
